@@ -73,4 +73,62 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+body { width:960px; margin:0 auto; }
+	
+header {
+	position: relative;
+	margin: 50px;
+	background-color: magenta;
+	}	
 
+.top {
+	position: absolute;
+	width: 960px;
+	height: 40px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 18px;
+	}
+	
+.top li {
+	text-transform: upppercase;
+	font-family: timesnewroman;
+	float: left;
+	margin-left: 50px;
+	padding-right: 25px;
+	margin-top: 10px; 
+	}
+
+img.dog { 
+	position: absolute;
+	}
+	
+img.cat { 
+	position: absolute;
+	}	
+
+#art1 {
+	float: left;
+	width: 480px;
+	margin: 50px;
+	}
+	
+#art2 {
+	float: left;
+	width: 480px;
+	}
+
+#fleft {
+	clearfix: both;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			

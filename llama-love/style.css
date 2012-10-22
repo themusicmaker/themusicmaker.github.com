@@ -31,24 +31,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+#art1 {
+	width: 440px;
+	float: left;
+	margin: 100px 0px 25px 100px;
+	}
+
+#art2 {
+	width: 440px;
+	float: left;
+	margin: 100px 50px 25px 25px;
+	}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	}
+
+h2 {
+	font-size: 12px;
+	color: #909090;
+	margin-bottom: 20px;
+	}
+
+img.llama1, img.llama2 {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;	
+	}		
+	
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	font-size: 14px;
+	font-family: arial;
+	}
 
 
 /* Center Content */
