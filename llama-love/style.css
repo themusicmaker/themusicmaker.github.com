@@ -66,6 +66,10 @@ img.llama1, img.llama2 {
 body {
 	font-size: 14px;
 	font-family: arial;
+
+.centered {
+	margin: 0 auto
+	width: 960px;
 	}
 
 
