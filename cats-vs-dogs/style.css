@@ -90,23 +90,29 @@ header {
 	}
 	
 .top {
-	text-transform: upppercase;
+	text-transform: uppercase;
 	font-family: timesnewroman;
 	position: absolute;
 	margin-top: 25px;
 	width: 960px;
 	height: 40px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
 	font-size: 18px;
+	
 	}
 	
 .top li {
 	float: left;
 	margin-left: 50px;
-	padding-right: 25px;
-	margin-top: 10px; 
+	padding-right: 15px;
+	margin-top: 10px;
 	}
+
+.top li a{
+	text-decoration: none;
+	color: black; 
+}
 
 #dog { 
 	width: 450px;
