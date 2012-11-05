@@ -50,3 +50,99 @@ table {
 	border-spacing: 0;
 }
 
+
+#site-wrapper {
+	background-color: gray;
+	}
+
+#site-header {
+	position: relative;
+	background-color: blue;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-size: 45pt;
+	}
+
+h1 {
+	font-size: 45pt;
+	}
+
+h2 {
+	font-size: 25pt;
+	}
+
+#top-nav {
+	text-align: right;
+	font-size: 12pt;
+	background-color: yellow;
+	}
+
+#menu-wrapper {
+	float: left;
+	width: 10000px;
+	background-color: brown;
+	}
+
+#main-menu {
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 25px;
+	}
+
+#main-menu li {
+	float: left;
+	margin-top: 10px;
+	background-color: pink;
+	font-size: 30pt;
+	}
+
+#page{
+	float: left;
+	background-color: teal;
+	margin-left: 250px;
+	margin-right: 50px;
+	width: 800px;
+	}
+
+#sidebar {
+	float: left;
+	width: 350px;
+	margin-right: 20px;
+	background-color: orange;
+	}
+
+#footer-wrapper {
+	float: left;
+	background-color: red;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
