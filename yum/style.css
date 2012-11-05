@@ -75,8 +75,10 @@ body {
 	width:960px; margin:0 auto;
 	font-family: garamond;
 	font-size: 11pt;
+	color: #232323;
 	}
-	
+
+
 header { 
 	position: relative;	
 	margin-top: 60px;
@@ -93,16 +95,17 @@ header {
 	}
 
 #ingredients {
-	margin-top: 22px; 
+	margin-top: 28px; 
 	float: left;
 	width: 200px;
 	background: ;
-	border-right: 1px solid black;
+	border-right: 1px solid lightgray;
+	color
 	}
 
 #directions {
 	margin-left: 20px;
-	margin-top: 22px; 
+	margin-top: 28px; 
 	float: left;
 	width: 400px;
 	background: ;
@@ -113,6 +116,7 @@ h1 {
 	text-transform: uppercase;
 	font-size: 60pt;
 	font-weight: bold;
+	color: black;
 	}
 	
 h2 {
@@ -121,6 +125,7 @@ h2 {
 	font-size: 15pt;
 	font-weight: bold;
 	margin-bottom: 20px;
+	color: black;
 	}	
 	
 h3, h4 {
@@ -129,22 +134,26 @@ h3, h4 {
 	font-weight: bold;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	color: black;
 	}
 
 .yea {
 	position: relative;
-	background: yellow;
+	background: teal;
 	padding: 2px;
 	padding: 2px;
 	}
 	
 .yeah {
 	position: relative;
-	background: teal;
+	background: yellow;
 	padding: 2px;
 	padding: 2px;
 	}
 
+#art {
+	text-transform: italic; o
+	}
 
 
 
