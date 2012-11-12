@@ -53,27 +53,57 @@ table {
 /* END OF RESET - THIS IS MY CODE*/
 
 body {
-	background-color: yellow;
 	width: 100%;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: gray;
 	}
 	
 site-wrapper {
 	background-color: gray;
 	}
 
+#site-wrapper {
+	width: 100%;
+	background-color: background-image: linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -o-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.59, rgb(255,255,235)),
+	color-stop(1, rgb(255,255,255))
+);
+	}
+
 #site-header {
 	margin:0 auto;
-	width: 960px;
+	width: 1050px;
 	position: relative;
-	height: 200px;
-	background-color: teal;
+	height: 150px;
+	background-color: background-image: linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -o-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(255,255,235) 59%, rgb(255,255,255) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.59, rgb(255,255,235)),
+	color-stop(1, rgb(255,255,255))
+);
 	}
 
 #site-header h1 {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	background-color: red;
 	width: 356px;
 	}
 
@@ -88,18 +118,38 @@ site-wrapper {
 #top-nav {
 	position: absolute;
 	top: 20px;
-	right: 20px;
-	background-color: purple;
+	right: 75px;
+	text-decoration: none;
+	}
+
+#top-nav a {
+	text-decoration: none;
+	color: #744918;
+	}
+
+#menu-wrapper {
+	width: 100%;
+	background-color: #744918;
 	}
 
 #main-menu {
-	background-color: orange;
-	height: 100px;
+	background-color: #744918;
+	height: 35px;
+	margin-left: 300px;
 	}
 
 #main-menu li {
 	float: left;
-	margin-left: 50px;
+	margin-left: 50px;	
+	margin-top: 8px;
+	}
+	
+#main-menu li a {
+	text-decoration: none;	
+	font-weight: bold;
+	font-size: 14pt;
+	text-transform: uppercase;
+	color: #ffffff;
 	}
 	
 #content {
@@ -107,23 +157,102 @@ site-wrapper {
 
 #page {
 	float: left;
-	background-color: green;
-	width: 60%;
+	width: 30%;
+	margin-left: 350px;
+	margin-right: 100px;
+	line-height: 16pt;
+	margin-bottom: 50px;
 	}
 
 #sidebar {
 	float: left;
-	background-color: pink;
-	width: 30%;
+	width: 20%;
+	margin-top: 75px;
 	}
 
-#site-footer {
+#sidebar ul {
+	margin-bottom: 20px;
+	text-decoration: none;
+	}
+	
+#sidebar a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #744918;
+	}	
+
+#img1 {
+	margin-bottom: 10px;
+	}
+
+#footer-wrapper {
 	clear: both;
-	background-color: brown;
+	background-color: background-image: linear-gradient(bottom, rgb(116,73,24) 27%, rgb(134,92,50) 86%);
+		background-image: -o-linear-gradient(bottom, rgb(116,73,24) 27%, rgb(134,92,50) 86%);
+		background-image: -moz-linear-gradient(bottom, rgb(116,73,24) 27%, rgb(134,92,50) 86%);
+		background-image: -webkit-linear-gradient(bottom, rgb(116,73,24) 27%, rgb(134,92,50) 86%);
+		background-image: -ms-linear-gradient(bottom, rgb(116,73,24) 27%, rgb(134,92,50) 86%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.27, rgb(116,73,24)),
+			color-stop(0.86, rgb(134,92,50)));
+	position: relative;
+	height: 170px;
+	}
+	
+#footer-contact {
+	width: 150px;
+	float:left;
+	margin-left: 350px;
+	margin-top: 15px;
+	color: #ffffff;
+	font-size: 7pt;
+	}
+	
+#footer-follow {
+	width: 400px;
+	float: right;
+	margin-right: 275px;
+	margin-top: 15px;
+	}
+
+#footer-follow li a{
+	float: left;
+	}
+
+h4 {
+	font-weight: bold;
+	font-size: 35pt;
+	font-family: georgia;
+	font-style: italic;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	}
+	
+#faq a {
+	color: #b7c850 !important;
+	}
+
+h2 {
+	font-weight: bold;
+	font-size: 14pt;
+	text-transform: uppercase;
+	color: #744918;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	}
 
 
-
+h6 {
+	font-weight: bold;
+	font-size: 14pt;
+	text-transform: uppercase;
+	color: #b39d81;
+	margin-bottom: 5px;
+	}
 
 
 

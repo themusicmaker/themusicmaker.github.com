@@ -99,6 +99,7 @@ span {
 	font-weight: bold;
 	font-style: italic;
 	text-transform: none;
+	border-top: 1px;
 	}
 	
 header {
