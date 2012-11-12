@@ -58,10 +58,6 @@ body {
 	font-size: 10pt;
 	color: gray;
 	}
-	
-site-wrapper {
-	background-color: gray;
-	}
 
 #site-wrapper {
 	width: 100%;
@@ -103,7 +99,7 @@ background-image: -webkit-gradient(
 #site-header h1 {
 	position: absolute;
 	top: 20px;
-	left: 20px;
+	left: 150px;
 	width: 356px;
 	}
 
@@ -135,7 +131,7 @@ background-image: -webkit-gradient(
 #main-menu {
 	background-color: #744918;
 	height: 35px;
-	margin-left: 300px;
+	margin-left: 200px;
 	}
 
 #main-menu li {
@@ -157,9 +153,9 @@ background-image: -webkit-gradient(
 
 #page {
 	float: left;
-	width: 30%;
-	margin-left: 350px;
-	margin-right: 100px;
+	width: 600px;
+	margin-left: 250px;
+	margin-right: 50px;
 	line-height: 16pt;
 	margin-bottom: 50px;
 	}
@@ -206,16 +202,16 @@ background-image: -webkit-gradient(
 #footer-contact {
 	width: 150px;
 	float:left;
-	margin-left: 350px;
+	margin-left: 250px;
 	margin-top: 15px;
 	color: #ffffff;
 	font-size: 7pt;
 	}
 	
 #footer-follow {
-	width: 400px;
+	width: 200px;
 	float: right;
-	margin-right: 275px;
+	margin-right: 125px;
 	margin-top: 15px;
 	}
 
@@ -230,6 +226,7 @@ h4 {
 	font-style: italic;
 	margin-top: 40px;
 	margin-bottom: 20px;
+	color: #744918;
 	}
 	
 #faq a {
