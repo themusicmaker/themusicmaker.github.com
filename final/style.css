@@ -82,7 +82,10 @@ body {
 	position: fixed;
 	background: black url(Images/objects/texture_1.png) repeat;
 	height: 15%;
+	}
 
+.image_full {
+	width: 100%;
 	}
 
 #header-image {
