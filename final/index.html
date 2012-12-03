@@ -5,6 +5,20 @@
 	<title>Tim Walsh Design</title>
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery.mousewheel.js"></script>
+	<script>
+	$(function(){
+		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
+		$(".post").wrap("<td></td>");
+		$("body").mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta * 30);
+			event.preventDefault();
+		});   
+	});
+	</script>
+	
   </head>
   
   <body>
@@ -16,67 +30,76 @@
 			</header>
 		</div>
 	</div>
+	
 	<div id='menu-wrapper'>
-			
 		<nav class='top'>
   		<ul>
     		<li>
-    			<a href="#">About</a></li>
+    			<a href="#">Contact</a></li>
     		<li>
     			<a href="#">Work</a></li>
     		<li>
-    			<a href="#">Blog</a></li>
+    			<a href="#">About</a></li>
   		</ul>
 		</nav>
 	</div>
 	
-	<div id="content-wrapper-ht">
-		<div id="picture-wrapper-ht">
-	
-			<section id="ht-full">
-				<img src="Images/how-to/calender_full.png" alt="2" class="image_full"/>
+	<div id="page-wrap">
+		
+		<div class="post">
+			
+			<section id="about">
+				<img src="Images/objects/me.jpg" alt="2" class="image_profile"/>
 			</section>
 	
+			<aside id='sidebar1'>
+				<h2>About</h2>
+				 <p>Tim Walsh is a graphic designer living in Boston, Massachusetts. </p> 
+			</aside>
+		
 		</div>
-		<aside id='sidebar1'>
-			<h2>How-to Calendar</h2>
-			<p>The objective with this project was to show the power of imagination.</p> 
-		</aside>
-	</div>
+		
+		<div class="post">
+			
+			<section id="ht-full">
+				<img src="Images/cue/cue_full.png" alt="2" class="image_full"/>
+			</section>
 	
-	<div id="content-wrapper-cur">
-		<div id="picture-wrapper-cur">
-	
+			<aside id='sidebar1'>
+				<h2>Cue Magazine</h2>
+				 <p>Cue magazine is a prototype film magazine. It would be released monthly and would include: an in depth analysis of an upcoming film, a movie poster/synopsis spread of newly released films, a title sequence breakdown, & articles involving the movie industry. 
+					In this particular issue, I included: Prometheus, The Girl with the Dragon Tattoo, & an article from Roger Ebert. 
+					Typeset in Bembo Std & Akzidenz-Grotesk BQ.
+					Perfect Bound.
+					Printed on Mohawk glossy paper.</p> 
+			</aside>
+		
+		</div>
+		
+		<div class="post">
+		
 			<section id="cur-full">
 				<img src="Images/curator/curator_full.png" alt="2" class="image_full"/>
 			</section>
 	
+			<aside id='sidebar2'>
+				<h2>Curator</h2>
+				<p>Curator is a prototype application I created that acts as a to-do list for any/all museum visits.</p> 
+			</aside>
+			
 		</div>
-		<aside id='sidebar2'>
-			<h2>Curator</h2>
-			<p>Curator is a prototype application I created that acts as a to-do list for any/all museum visits.</p> 
-		</aside>
-	</div>
 	
-	<div id="content-wrapper-cue">
-		<div id="picture-wrapper-cue">
+		<div class="post">
 	
 			<section id="cue-full">
-				<img src="Images/cue/cue_full.png" alt="2" class="image_full"/>
+				<img src="Images/how-to/calender_full.png" alt="2" class="image_full"/>
 			</section>
 	
+			<aside id='sidebar3'>
+				<h2>How-to Calender</h2>
+				<p>The objective with this project was to show the power of imagination.</p>
+			</aside>
 		</div>
-		<aside id='sidebar3'>
-			<h2>Cue Magazine</h2>
-			<p>Cue magazine is a prototype film magazine. It would be released monthly and would include: an in depth analysis of an upcoming film, a movie poster/synopsis spread of newly released films, a title sequence breakdown, & articles involving the movie industry. 
-
-In this particular issue, I included: Prometheus, The Girl with the Dragon Tattoo, & an article from Roger Ebert. 
-
-Typeset in Bembo Std & Akzidenz-Grotesk BQ.
-Perfect Bound.
-Printed on Mohawk glossy paper.</p> 
-		</aside>
-	</div>
 
 	
   </body>
