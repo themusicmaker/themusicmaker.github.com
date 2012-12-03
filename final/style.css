@@ -82,7 +82,7 @@ body {
 	width: 100%;
 	position: fixed;
 	background: black url(Images/objects/texture_1.png) repeat;
-	height: 12%;
+	height: 83px;
 	box-shadow: 0px 2px 2px black;
 	}
 
@@ -98,7 +98,7 @@ body {
 
 #menu-wrapper {
 	width: 100%;
-	margin-top: 2.5%;
+	margin-top: 20px;
 	position: fixed;
 	}
 
