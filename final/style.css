@@ -77,10 +77,12 @@ body {
 	width:100%; margin:0px;
 	}
 
-#header-container {
+#header-container2 {
 	width: 100%;
 	position: fixed;
-	background-color: black;
+	background: black url(Images/objects/texture_1.png) repeat;
+	height: 15%;
+
 	}
 
 #header-image {
@@ -90,7 +92,6 @@ body {
 	margin-top: 1%;
 	margin-right: 1.5%;
 	margin-bottom: .5%;
-	
 	}
 
 #menu-wrapper {
