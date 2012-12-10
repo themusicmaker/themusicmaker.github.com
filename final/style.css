@@ -104,11 +104,29 @@ body {
 
 h2 {
 	color: lightgray;
+	font-family: 'chunkfive_romanregular', arial;
+	font-size: 1.5em;
 	}
 
 #block1 {
 	background: lightgray url(Images/objects/texture_1.png) repeat;
-	width: 500px;
+	width: 385px;
+	height: 500px;
+	float: left;
+	}
+
+#sidebar1 {
+	position: absolute;
+	width: 330px;
+	margin-left: 40px;
+	line-height: 1.5em;
+	color: #484848;
+	margin-top: 10px;
+	}
+
+#block2 {
+	background: lightgray url(Images/objects/texture_1.png) repeat;
+	width: 600px;
 	height: 500px;
 	float: left;
 	}
@@ -157,18 +175,12 @@ tr {
 .image_profile {
 	width: 35%;
 	margin-top: 5%;
-	margin-left: 7%;
+	margin-left: 40px;
 	box-shadow: 1px 2px 3px black;
 	}
 
 .post { 
 	width: 1024px; 
-	}
-
-#sidebar1 {
-	position: absolute;
-	width: 40%;
-	margin-left: 3%;
 	}
 
 @font-face {
