@@ -19,6 +19,26 @@
 	});
 	</script>
 	
+	<script>
+	
+$(function() {
+    $('nav.top ul a').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+         */
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1000);
+        event.preventDefault();
+    });
+});
+	
+	</script>
+		
   </head>
   
 <body>
@@ -34,11 +54,11 @@
 	<div id='menu-wrapper'>
 		<nav class='top'>
   		<ul>
-    		<li><a href="#">Contact</a></li>
+    		<li><a href="#block2">Contact</a></li>
     		<li class="divide">|<li>	
-    		<li><a href="#">Work</a></li>
+    		<li><a href="#cue-full-container">Work</a></li>
     		<li class="divide">|<li>	
-    		<li><a href="#">About</a></li>
+    		<li><a href="#block1">About</a></li>
   		</ul>
 		</nav>
 	</div>
@@ -57,8 +77,8 @@
 			</aside>
 		</div>		
 		
-		<div class="post">		
-			<section id="ht-full">
+		<div class="post" id="cue-full-container">		
+			<section id="cue-full">
 				<img src="Images/cue/cue_full.png" alt="2" class="image_full"/>
 			</section>
 			<aside id='sidebar2'>
@@ -86,7 +106,7 @@
 		</div>
 	
 		<div class="post">
-			<section id="cue-full">
+			<section id="ht-full">
 				<img src="Images/how-to/calender_full.png" alt="2" class="image_full"/>
 			</section>
 	
