@@ -34,6 +34,32 @@
 			$(".fancybox").fancybox({padding : 6});
 		});
 	</script>
+	
+	<script>
+	
+	$(function() {
+    $('.top ul a').bind('click',function(event){
+        var $anchor = $(this);
+        
+        /*if you want to use one of the easing effects: */
+        
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+        
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr(href='#block1')).offset().left
+        }, 1000);
+        event.preventDefault();
+    	});
+	});
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+    <script type="text/javascript" src="scrolling/jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+	
+	
+	</script>
 				
   </head>
   
@@ -104,13 +130,12 @@
 		<div class="post ">
 			<section id="ht-full">
 				
-				
 				<a class="fancybox" rel="group3" title="Curator"href="Images/how-to/Colorize.PNG">
 				<a class="fancybox" rel="group3" title="Curator"href="Images/how-to/Animate.PNG">
 				<a class="fancybox" rel="group3" title="Curator"href="Images/how-to/Amplify.PNG">
 				<a class="fancybox" rel="group3" title="Curator"href="Images/how-to/Cover.PNG">
 				
-				<img src="Images/how-to/calender_full.jpg" alt="2" class="image_full"/>
+				<img src="Images/how-to/calender_full.jpg" alt="2" class="image_full"/></a>
 			</section>
 	
 			<aside id='sidebar4'>
