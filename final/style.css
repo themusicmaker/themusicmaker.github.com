@@ -95,16 +95,10 @@ body {
 	margin-right: 1.5%;
 	margin-bottom: 1.5px;
 	}
-
-#menu-wrapper {
-	width: 100%;
-	margin-top: 20px;
-	position: fixed;
-	}
 	
 h2 {
 	color: lightgray;
-	font-family: 'SourceSansProSemiboldItalic', arial;
+	font-family: 'SourceSansProBold', arial;
 	font-size: 1.5em;
 	}
 
@@ -131,35 +125,40 @@ h2 {
 	float: left;
 	}
 
+#menu-wrapper {
+	width: 100%;
+	margin-top: 20px;
+	position: fixed;
+	}
+
 .top {
-	margin-right: 1.5%;
+	margin-right: 1.5px;
 	font-size: 2.5em;
 	width: 100%;
-	font-family: 'SourceSansProSemiboldItalic', arial;
+	font-family: 'SourceSansProRegular', arial;
+	text-transform: uppercase;
 	}
 	
 .top li {
 	float: right;
-	padding-right: 1.5%;
-	margin-top: -3px;
+	margin-right: 35px;
 	}
 
 .divide {
-	color: #080808;
-	font-size: 30px;
-	padding-top: 11px;
-	opacity: .4;
-	font-family: 'SourceSansProSemiboldItalic', arial;
+	color: #C0C0C0;
+	font-size: 1em;
+	padding-top: 8px;
+	font-family: 'SourceSansProExtraLight', arial;
 	}
 
 .top li a{
 	text-decoration: none;
-	color: #080808; 
+	color: #C0C0C0; 
 	font-size: .6em;
 	}
 
 .top li a:hover {
-	color: lightgray;
+	color: #080808;
 	}
 
 tr { 
@@ -226,6 +225,16 @@ tr {
     font-style: normal;
 	}
 
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('SourceSansPro-Regular-webfont.eot');
+    src: url('SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-Regular-webfont.woff') format('woff'),
+         url('SourceSansPro-Regular-webfont.ttf') format('truetype'),
+         url('SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
 
 
 
