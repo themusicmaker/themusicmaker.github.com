@@ -101,10 +101,10 @@ body {
 	margin-top: 20px;
 	position: fixed;
 	}
-
+	
 h2 {
 	color: lightgray;
-	font-family: 'allerbold', arial;
+	font-family: 'SourceSansProSemiboldItalic', arial;
 	font-size: 1.5em;
 	}
 
@@ -135,7 +135,7 @@ h2 {
 	margin-right: 1.5%;
 	font-size: 2.5em;
 	width: 100%;
-	font-family: '', arial;
+	font-family: 'SourceSansProSemiboldItalic', arial;
 	}
 	
 .top li {
@@ -145,16 +145,16 @@ h2 {
 	}
 
 .divide {
-	color: black;
+	color: #080808;
 	font-size: 30px;
 	padding-top: 11px;
-	text-transform: bold;
-	opacity: .4;	
+	opacity: .4;
+	font-family: 'SourceSansProSemiboldItalic', arial;
 	}
 
 .top li a{
 	text-decoration: none;
-	color: #484848; 
+	color: #080808; 
 	font-size: .6em;
 	}
 
@@ -183,16 +183,48 @@ tr {
 	}
 
 @font-face {
-    font-family: 'allerbold';
-    src: url('aller_bd-webfont.eot');
-    src: url('aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
-         url('aller_bd-webfont.woff') format('woff'),
-         url('aller_bd-webfont.ttf') format('truetype'),
-         url('aller_bd-webfont.svg#allerbold') format('svg');
+    font-family: 'chunkfive_romanregular';
+    src: url('fonts/chunk/chunkfive-webfont.eot');
+    src: url('fonts/chunk/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chunk/chunkfive-webfont.woff') format('woff'),
+         url('fonts/chunk/chunkfive-webfont.ttf') format('truetype'),
+         url('fonts/chunk/chunkfive-webfont.svg#chunkfive_romanregular') format('svg');
     font-weight: normal;
     font-style: normal;
+	}
 
-}
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('fonts/source/SourceSansPro-Bold-webfont.eot');
+    src: url('fonts/source/SourceSansPro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/source/SourceSansPro-Bold-webfont.woff') format('woff'),
+         url('fonts/source/SourceSansPro-Bold-webfont.ttf') format('truetype'),
+         url('fonts/source/SourceSansPro-Bold-webfont.svg#SourceSansProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'SourceSansProSemiboldItalic';
+    src: url('fonts/source/SourceSansPro-SemiboldIt-webfont.eot');
+    src: url('fonts/source/SourceSansPro-SemiboldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/source/SourceSansPro-SemiboldIt-webfont.woff') format('woff'),
+         url('fonts/source/SourceSansPro-SemiboldIt-webfont.ttf') format('truetype'),
+         url('fonts/source/SourceSansPro-SemiboldIt-webfont.svg#SourceSansProSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+	
+@font-face {
+    font-family: 'SourceSansProExtraLight';
+    src: url('fonts/source/SourceSansPro-ExtraLight-webfont.eot');
+    src: url('fonts/source/SourceSansPro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/source/SourceSansPro-ExtraLight-webfont.woff') format('woff'),
+         url('fonts/source/SourceSansPro-ExtraLight-webfont.ttf') format('truetype'),
+         url('fonts/source/SourceSansPro-ExtraLight-webfont.svg#SourceSansProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
 
 
 
