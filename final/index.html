@@ -28,7 +28,10 @@
 	<!-- Add fancyBox -->
 	<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
 	<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.3"></script>
-
+	
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".fancybox").fancybox({padding : 6});
@@ -55,6 +58,22 @@
                     event.preventDefault();
                 });
             });
+            
+   $(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});     
+            
+            
         </script>
 	<link rel="shortcut icon" href="Images/objects/favicon.ico" />		
   </head>
@@ -84,7 +103,7 @@
 		<div class="post" id="cue-full-container">		
 			<section id="cue-full">
 				
-				<a class="fancybox" rel="group3" title="" href="Images/cue/design/2.png">
+				<a class="fancybox" rel="group5" title="" href="Images/cue/design/2.png">
 		
 				<img src="Images/iron/iron_full.jpg" alt="2" class="image_full"/></a>
 			</section>
@@ -101,7 +120,8 @@
 		<div class="post" id="cue-full-container">		
 			<section id="cue-full">
 				
-				<a class="fancybox" rel="group3" title="" href="Images/cue/design/2.png">
+				<a class="fancybox" rel="group4" title="" href="Images/t21/t21_back.jpg">
+				<a class="fancybox" rel="group4" title="" href="Images/t21/t21_front.jpg">
 		
 				<img src="Images/t21/t21_full.jpg" alt="2" class="image_full"/></a>
 			</section>
@@ -119,19 +139,19 @@
 			<section id="cue-full">
 				
 				<a class="fancybox" rel="group3" title="" href="Images/cue/design/2.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/3.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/4.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/5.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/6.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/7.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/8.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/9.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/10.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/11.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/12.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/13.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/14.png">
-				<a class="fancybox" rel="group4" title="" href="Images/cue/design/1.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/3.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/4.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/5.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/6.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/7.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/8.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/9.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/10.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/11.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/12.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/13.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/14.png">
+				<a class="fancybox" rel="group3" title="" href="Images/cue/design/1.png">
 				
 				<img src="Images/cue/cue_full.jpg" alt="2" class="image_full"/></a>
 			</section>
@@ -147,31 +167,20 @@
 		
 		<div class="post">
 			<section id="cur-full">
-				<a class="fancybox" rel="group3" title="" href="Images/curator/Collage(smallest).png">
-
-				<img src="Images/curator/curator_full.jpg" alt="2" class="image_full"/></a>
+				
+				<a class="fancybox" rel="group2" title="" href="Images/curator/Collage(smallest).png">
+				<a class="various" rel="group2" title="" data-fancybox-type="iframe" href="http://player.vimeo.com/video/42713281" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+				
+					<img src="Images/curator/curator_full.jpg" alt="2" class="image_full"/></a>
+				
 			</section>
 			<aside class="sidebar">
 				<h2>Curator</h2>
-				<p>Curator is a prototype application I created that acts as a to-do list for any/all museum visits.</p> 
+				<h3>Fall 2011</h3>
+				<p>In order to develop Curator I had to first confront the task which involved designing a service that organized and maintained the art collection at the Isabella Stewart Gardner Museum in Boston, MA.</p>
+				
+				<p>I came up with the idea of a to-do list after attending the museum and noticing that it's layout, although beautiful isn't exactly intuitive. Curator would act as an organized guide for the museum visitor, making sure they can view, save, queue, annotate & locate they're desired art pieces from any museum.  </p>
 			</aside>		
-		</div>
-	
-		<div class="post ">
-			<section id="ht-full">
-				
-				<a class="fancybox" rel="group2" title="" href="Images/how-to/Colorize.PNG">
-				<a class="fancybox" rel="group2" title="" href="Images/how-to/Animate.PNG">
-				<a class="fancybox" rel="group2" title="" href="Images/how-to/Amplify.PNG">
-				<a class="fancybox" rel="group2" title="" href="Images/how-to/Cover.PNG">
-				
-				<img src="Images/how-to/calender_full.jpg" alt="2" class="image_full"/></a>
-			</section>
-	
-			<aside class="sidebar">
-				<h2>How-to Calender</h2>
-				<p>The objective with this project was to show the power of imagination.</p>
-			</aside>
 		</div>
 		
 		<div class="post ">
@@ -180,7 +189,7 @@
 				<a class="fancybox" rel="group1" title="" href="Images/100objects/girltalk.png">
 				<a class="fancybox" rel="group1" title="" href="Images/100objects/100bands.png">
 				
-				<img src="Images/100objects/100_full.jpg" alt="2" class="image_full"/></a>
+					<img src="Images/100objects/100_full.jpg" alt="2" class="image_full"/></a>
 			</section>
 	
 			<aside class="sidebar">

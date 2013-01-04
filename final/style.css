@@ -99,8 +99,14 @@ body {
 	
 h2 {
 	color: lightgray;
-	font-family: 'SourceSansProRegular', arial;
-	font-size: 1.5em;
+	font-family: 'SourceSansProSemiboldItalic', arial;
+	font-size: 1.7em;
+	}
+
+h3 {
+	color: lightgray;
+	font-family: 'SourceSansProSemiboldItalic', arial;
+	font-size: 1 em;
 	margin-bottom: 10px;
 	}
 
@@ -113,17 +119,19 @@ h2 {
 
 .sidebar {
 	position: absolute;
-	width: 100px;
+	width: 350px;
 	height: 465px;
 	line-height: 1.5em;
-	color: rgb(0, 0, 0, .00001);
+	color: rgb(168,168,168);
 	top: 83px;
 	background: rgb(0, 0, 0, 0.00001);
-	font-size: 0px;
+	font-size: 14px;
 	padding: 15px 15px 15px 30px;
-	box-shadow: 2px 0px 4px rgba(0,0,0,0.00001)
-	}
-
+	box-shadow: 2px 0px 4px rgba(0,0,0,0.00001);
+	-webkit-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -o-transition: all 0.25s ease;
+	opacity: 0.0;
+	margin-top: -50px;
+}
 .sidebar:hover {
 	position: absolute;
 	width: 350px;
@@ -131,10 +139,16 @@ h2 {
 	line-height: 1.5em;
 	color: rgb(168,168,168);
 	top: 83px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	font-size: 14px;
 	padding: 15px 15px 15px 30px;
-	box-shadow: 2px 0px 4px rgba(0,0,0,0.2)
+	box-shadow: 2px 0px 4px rgba(0,0,0,0.2);
+	opacity: 1.0;
+	margin-top: 0;
+	}
+
+p + p { 
+	margin-top: 0.5em; 
 	}
 
 #block2 {
@@ -206,9 +220,11 @@ tr {
 	box-shadow: 1px 2px 3px black;
 	}
 
-.post { 
+.post img { 
 	width: 1024px; 
 	}
+
+
 	
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
 
@@ -263,6 +279,17 @@ tr {
          url('fonts/source/SourceSansPro-Regular-webfont.woff') format('woff'),
          url('fonts/source/SourceSansPro-Regular-webfont.ttf') format('truetype'),
          url('fonts/source/SourceSansPro-Regular-webfont.svg#SourceSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {   
+    font-family: 'SourceSansProLightItalic';
+    src: url('fonts/source/SourceSansPro-LightIt-webfont.eot');
+    src: url('fonts/source/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/source/SourceSansPro-LightIt-webfont.woff') format('woff'),
+         url('fonts/source/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
+         url('fonts/source/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
     font-weight: normal;
     font-style: normal;
 	}
