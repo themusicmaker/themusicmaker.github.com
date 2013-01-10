@@ -229,14 +229,6 @@ tr {
 	box-shadow: 0px 1px 2px black;
 	}
 
-#image_profile {
-	width: 35%;
-	box-shadow: 1px 2px 3px black;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	}
-
 #bio {
 	margin-top: 40px;
 	}
@@ -267,6 +259,16 @@ tr {
 
 .icon:hover {
 	opacity: 1.0;
+	}
+
+footer {
+	width: 100%;
+	font-family: 'DroidSerifRegular', arial;
+	font-size: 10px;
+	color: #383838;
+	margin-left: 5250px;
+	margin-top: 50px;
+	text-align: right;
 	}
 
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
