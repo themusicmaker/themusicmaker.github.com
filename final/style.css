@@ -231,6 +231,7 @@ tr {
 
 #bio {
 	margin-top: 40px;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 	}
 
 #bio_name {
@@ -244,8 +245,7 @@ tr {
 #icon_pack { 
 	width: 350px; 
 	float:right;
-	margin-top: 55px;
-	border-style:dotted solid;
+	margin-top: 40px;
 	}
 
 .icon {
@@ -261,14 +261,11 @@ tr {
 	opacity: 1.0;
 	}
 
-footer {
-	width: 100%;
-	font-family: 'DroidSerifRegular', arial;
+#footer {
 	font-size: 10px;
 	color: #383838;
-	position: fixed;
-	margin-top: 5%;
-	padding-left: 77%;
+	padding-top: 10%;
+	text-align: left;
 	}
 
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
