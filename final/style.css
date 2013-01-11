@@ -111,16 +111,29 @@ body {
 	}
 	
 h2 {
+	width: 100%;
 	color: lightgray;
 	font-family: 'SourceSansProSemiboldItalic', arial;
 	font-size: 1.7em;
 	}
 
 h3 {
+	width: 50%;
 	color: lightgray;
 	font-family: 'SourceSansProSemiboldItalic', arial;
 	font-size: 1 em;
 	margin-bottom: 10px;
+	}
+
+.arrow {
+	width: 30px;
+	float: right;
+	margin-top: 0px;
+	opacity: .25;
+	}
+
+.arrow:hover {
+	opacity: 1.0;
 	}
 
 #block1 {
@@ -231,6 +244,9 @@ tr {
 
 #bio {
 	margin-top: 40px;
+	}
+
+#bio-type {
 	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 	}
 
@@ -246,6 +262,7 @@ tr {
 	width: 350px; 
 	float:right;
 	margin-top: 40px;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 	}
 
 .icon {
@@ -266,6 +283,7 @@ tr {
 	color: #383838;
 	padding-top: 10%;
 	text-align: left;
+	text-shadow: 1px 1px 4px rgba(255,255,255,0.1)
 	}
 
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
