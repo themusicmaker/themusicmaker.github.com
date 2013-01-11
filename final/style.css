@@ -266,9 +266,9 @@ footer {
 	font-family: 'DroidSerifRegular', arial;
 	font-size: 10px;
 	color: #383838;
-	margin-left: 410%;
-	margin-top: 3.5%;
-	text-align: right;
+	position: fixed;
+	margin-top: 5%;
+	padding-left: 77%;
 	}
 
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
