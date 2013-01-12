@@ -167,7 +167,7 @@ h3 {
 	line-height: 1.5em;
 	color: rgb(168,168,168);
 	top: 83px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.65);
 	font-size: 14px;
 	padding: 15px 15px 15px 30px;
 	box-shadow: 2px 0px 4px rgba(0,0,0,0.2);
@@ -285,6 +285,29 @@ tr {
 	text-align: left;
 	text-shadow: 1px 1px 4px rgba(255,255,255,0.1)
 	}
+
+/////////////////////////////////////////////////*Videos*/////////////////////////////////////////////////
+	
+.fancybox-type-iframe .fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-type-iframe .fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-type-iframe .fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-type-iframe .fancybox-next {
+    right: -6000px;
+}
+
+.fancybox-type-iframe .fancybox-prev {
+    left: -6000px;
+}
 
 /////////////////////////////////////////////////*Typeface*/////////////////////////////////////////////////
 
