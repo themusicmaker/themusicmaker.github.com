@@ -87,27 +87,50 @@
   		})();
 	</script>
 	 
-	<link rel="shortcut icon" href="Images/objects/favicon.ico" />		
+	<link rel="shortcut icon" href="Images/objects/favicon.ico" />	
+	
+	<script>
+	$(document).ready(function()
+	{
+    $("#imgAnimate").hover(
+        function()
+        {
+            $(this).attr("src", "Images/objects/logo2.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "Images/objects/logo-static.gif");
+        });
+        });
+	</script>
   </head>
   
 <body>
 	
 	<div id="header-texture">
 		<div id="header-container2">
-			<header id='header-image'>
-				<img src="Images/objects/tw_solo.png" alt="2"/>
-			</header>
+			<img src="Images/objects/logo-static.gif" alt="2" class="header-image" id="imgAnimate"/>
 		</div>
 	</div>
 	
 	<div id='menu-wrapper'>
-		<nav class='top'>
-  		<ul class='top2'>
-    		<li><a href="#block1">Contact</a></li>
-    		<li class="divide">//<li>	
-    		<li><a href="#latest">Work</a></li>
-  		</ul>
+		<nav id='top'>	
+  		<ul id="icon_pack" class="post">
+    			<li><a target="_blank" href="mailto:walsh.d.timothy@gmail.com"><img src="Images/objects/social/email.png" title="Email" alt="2" class="icon"></a></li>
+				<li class="divide2">|<li>
+				<li><a target="_blank" href="http://dribbble.com/Imakemusic"><img src="Images/objects/social/dribbble.png" title="Dribbble" alt="2" class="icon"></a></li>
+				<li class="divide2">|<li>
+				<li><a target="_blank" href="http://www.flickr.com/photos/make_create/"><img src="Images/objects/social/flickr.png" title="Flickr" alt="2" class="icon"></a></li>
+				<li class="divide2">|<li>
+				<li><a target="_blank" href="http://www.linkedin.com/pub/tim-walsh/49/b18/5a5/"><img src="Images/objects/social/linkedin.png" title="LinkedIn" alt="2" class="icon"></a></li>
+				<li class="divide2">|<li>
+				<li><a target="_blank" href="https://twitter.com/Imakemusic"><img src="Images/objects/social/twitter_bird.png" title="Twitter" alt="2" class="icon"></a></li>
+				<li class="divide2">|<li>
+				<li><a target="_blank" href="https://vimeo.com/user10457340"><img src="Images/objects/social/vimeo.png" title="Vimeo" alt="2" class="icon"></a></li>
+		</ul>		
 		</nav>
+		
+		
 	</div>
 		
 		<div class="post" id="latest">		
@@ -287,21 +310,7 @@
 					 known as Halfadeer. There he experienced first-hand how a special effects and motion studio operated. Visit the sites
 					 below to see what Tim has been up to!</p>	 					 
 			</div>
-			<div id="icon_pack" class="post">
-			<ul>
-				<li><a target="_blank" href="mailto:tw@timwalshdesign.com"><img src="Images/objects/social/email.png" alt="2" class="icon"></a></li>
-				<li class="divide2">|<li>
-				<li><a target="_blank" href="http://dribbble.com/Imakemusic"><img src="Images/objects/social/dribbble.png" alt="2" class="icon"></a></li>
-				<li class="divide2">|<li>
-				<li><a target="_blank" href="http://www.flickr.com/photos/make_create/"><img src="Images/objects/social/flickr.png" alt="2" class="icon"></a></li>
-				<li class="divide2">|<li>
-				<li><a target="_blank" href="http://www.linkedin.com/pub/tim-walsh/49/b18/5a5/"><img src="Images/objects/social/linkedin.png" alt="2" class="icon"></a></li>
-				<li class="divide2">|<li>
-				<li><a target="_blank" href="https://twitter.com/Imakemusic"><img src="Images/objects/social/twitter_bird.png" alt="2" class="icon"></a></li>
-				<li class="divide2">|<li>
-				<li><a target="_blank" href="https://vimeo.com/user10457340"><img src="Images/objects/social/vimeo.png" alt="2" class="icon"></a></li>
-			</ul>
-			</div>
+
 			<div id="footer">
 			<p>| Copyright &copy; 2013 Tim Walsh. All rights reserved.</p>
 			</div>

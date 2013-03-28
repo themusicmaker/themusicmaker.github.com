@@ -75,7 +75,7 @@ html[xmlns] .clearfix { display: block; }
 
 body { 
 	width:100%; margin:0px;
-	background: black url(Images/objects/texture_1.png) repeat;
+	background: black url(Images/objects/pat_maze.png) repeat;
 	font-family: 'DroidSerifRegular', arial;
 	font-size: 14px;
 	line-height: 1.5em;
@@ -95,19 +95,23 @@ body {
 #header-container2 {
 	width: 100%;
 	position: fixed;
-	background: black url(Images/objects/texture_1.png) repeat;
 	height: 83px;
 	box-shadow: 4px 4px 3px rgba(0,0,0,0.2);
+	background: black;
+	background-image: black; /* fallback */
+	background-image: url(Images/egg_shell.png), -webkit-gradient(linear, left top, left bottom, from(#282828), to(#080808 )); /* Saf4+, Chrome */
+	background-image: url(Images/egg_shell.png), -webkit-linear-gradient(top, #282828, #080808 ); /* Chrome 10+, Saf5.1+ */
+	background-image: url(Images/egg_shell.png),    -moz-linear-gradient(top, #282828, #080808 ); /* FF3.6+ */
+	background-image: url(Images/egg_shell.png),     -ms-linear-gradient(top, #282828, #080808 ); /* IE10 */
+	background-image: url(Images/egg_shell.png),      -o-linear-gradient(top, #282828, #080808 ); /* Opera 11.10+ */
+	background-image: url(Images/egg_shell.png),         linear-gradient(top, #282828, #080808 ); /* W3C */
+	border-bottom:2px solid #181818;
+	border-top:1px solid #202020;
 	}
 
 
-#header-image {
-	width: 100%;
-	height: 100%;
-	margin-left: 20px;
-	margin-top: 7px;
-	margin-right: 1.5%;
-	margin-bottom: 1.5px;
+.header-image {
+	width: 10%;
 	}
 	
 h2 {
@@ -137,7 +141,7 @@ h3 {
 	}
 
 #block1 {
-	background: #080808 url(Images/objects/texture_1.png) repeat;
+	background: #080808 url(Images/objects/pat_maze.png) repeat;
 	width: 350px;
 	height: 500px;
 	float: right;
@@ -152,7 +156,7 @@ h3 {
 	line-height: 1.5em;
 	color: rgb(168,168,168);
 	top: 83px;
-	background: rgb(0, 0, 0, 0.00001);
+	background: rgb(0, 0, 0, 0.65);
 	font-size: 14px;
 	padding: 15px 15px 15px 30px;
 	box-shadow: 2px 0px 4px rgba(0,0,0,0.00001);
@@ -163,10 +167,10 @@ h3 {
 .sidebar:hover {
 	position: absolute;
 	width: 350px;
-	height: 465px;
+	height: 461px;
 	line-height: 1.5em;
 	color: rgb(168,168,168);
-	top: 83px;
+	top: 86px;
 	background: rgba(0, 0, 0, 0.65);
 	font-size: 14px;
 	padding: 15px 15px 15px 30px;
@@ -180,57 +184,68 @@ p + p {
 	}
 
 #menu-wrapper {
-	width: 100%;
 	margin-top: 32.5px;
 	position: fixed;
+	background-color: ;
+	margin-left: 75%;
 	}
 
-.top {
-	margin-right: 1.5px;
+#top {
 	font-size: 2.75em;
-	width: 100%;
 	font-family: 'SourceSansProBold', arial;
 	text-transform: uppercase;
 	}
 	
-.top li {
+#top li {
 	float: right;
-	margin-right: 35px;
-	text-shadow: 1px 1px 0px rgba(16,16,16,0.5);
 	}
 
 .divide {
-	color: #484848;
+	color: #666666;
 	font-size: .9em;
 	padding-top: 1px;
 	font-family: 'SourceSansProExtraLight', arial;
 	}
 
+#top li a{
+	color: #B8B8B8;
+	font-size: .75em;
+	text-decoration: none;
+	}
+
+#top li a:hover {
+    color: #303030;
+    text-decoration: none;
+	}
+
 .divide2 {
-	float: left;
+	float: right;
 	color: #484848;
-	font-size: 2.5em;
-	padding-top: 1px;
+	font-size: 1.5em;
 	font-family: 'SourceSansProExtraLight', arial;
-	padding-right: 10px;
-	padding-left: 8px;
-	padding-top: 5px;
 	opacity: .3;
 	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 	}
 
-.top li a{
-	text-decoration: none;
-	color: #404040;
-	font-size: .75em;
+#icon_pack {
+	float: right;
+	margin-top: -7px;
+	margin-right: 1%;
+	width:100%;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);	
 	}
 
-.top li a:hover {
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: #B8B8B8;
-    text-shadow: rgba(16,16,16,0.5) 0px 1px 1px;
+.icon {
+	margin-right: 1px;
+	width:30px;
+	float:right;
+	opacity: .25;
+	color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+	}
+
+.icon:hover {
+	opacity: .75;
 	}
 
 tr { 
@@ -256,26 +271,6 @@ tr {
 
 .post { 
 	width: 1024px; 
-	}
-
-#icon_pack { 
-	width: 350px; 
-	float:right;
-	margin-top: 40px;
-	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-	}
-
-.icon {
-	width: 30px;
-	float:left;
-	opacity: .25;
-	padding-right: 5px;
-	color: rgba(0,0,0,0.6);
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-	}
-
-.icon:hover {
-	opacity: 1.0;
 	}
 
 #footer {
